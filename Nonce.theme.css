@@ -2,9 +2,48 @@
  * @name Nonce
  * @description Theme to Fix all of Discords Design Flaws
  * @author GyroTwist
- * @version 1.0.0
+ * @version 1.0.1
+ * @source https://github.com/GyroTwistCodes/GyroTwistCodes.github.io/tree/main/Nonce
+ * @updateUrl https://gyrotwistcodes.github.io/Nonce/Nonce.theme.css
 **/
+
+/* Changes DISCORD Text on top back to the old version (AKA The better one) */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
-@import url('./components/AboutSlider.css');
+/* Slider to the ABOUT ME page on the profile popout */
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/AboutSlider.css');
+/*Removes the "SET SERVER NICKNAME" Field under your user pop out */
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/RemoveSSN.css');
+/*Removes that notice that says the CTRL + K that is pretty damn dannoying*/
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/RemoveChannelNotice.css');
+/*Remove The tips when creating a server*/
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/RemoveServerTips.css');
+/* Minimize Search bar when not hovering*/
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/SearchBarMinimize.css');
+/* Clear Up the text bar */
+@import url('https://gyrotwistcodes.github.io/Nonce/Components/CleanerChatBar.css');
 
+@keyframes rainbow {
+    0%    {color: #ff0000}
+    12%   {color: #ffbf00}
+    25%   {color: #80ff00}
+    37%   {color: #00ff40}
+    50%   {color: #00ffff}
+    62%   {color: #0040ff}
+    75%   {color: #8000ff}
+    87%   {color: #eb34bd}
+    100%  {color: #ff0000}
+}
 
+.icon-1DeIlz
+{
+    animation: rainbow 5s linear 0s infinite normal;
+}
+
+.modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz, .modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
+    animation: rainbow 5s linear 0s infinite normal;
+}
+
+.name-1jkAdW
+{
+    animation: rainbow 5s linear 0s infinite normal;
+}

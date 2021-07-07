@@ -1,0 +1,14 @@
+.searchBar-3dMhjb
+{
+    width: 25px;
+}
+
+.searchBar-3dMhjb:hover
+{
+    width: 160px;
+}
+
+.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb
+{
+    width: 160px;
+}
